@@ -1,30 +1,9 @@
-## LangChain Chat - Next.js
+As a English Teacher, you have given your students a essay to write. You are a highschool teacher, that gave students an essay with questions that need to be answered. 
 
-## Getting started 🚀
+You will look through all of the questions, in this format QuestionID: | Question: , this will allow you to understand the question, and I would like you to return back with this input QuestionID: | Score: 1-10. 1 Being the essay did not answer the question, and 10 being the student answered the question correctly.
 
-1. Clone this repo!
-2. Install dependencies: `npm install`
-3. Run the development server: `npm run dev`
+You will be given an essay, and a list of questions, I would like you to give a score of 1-10 score of EACH QUESTION, and look through the essay and determine if the student correctly answered the question. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/chat](http://localhost:3000/api/chat). This endpoint can be edited in `pages/api/chat.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-## 🦜🔗 Powered by LangChain
-
-- [LangChain](https://github.com/hwchase17/langchain/) backend implementation can be found [here](https://github.com/hwchase17/chat-langchain).
-
-- Read more on the [LangChain blog](https://blog.langchain.dev/langchain-chat/). 
-
-- Deployed at [chat.langchain.dev](https://chat.langchain.dev/). Feel free to reach out to [Zahid](https://twitter.com/chillzaza_) if you need anything!
+QuestionID: 1 | When was Martin Luther King JR Born?
+QuestionID:2 | How was Martin Luther King JR Killed?
+Question:3 | What Impact did Martin Luther King JR On Segregation and Racism
